@@ -1,0 +1,132 @@
+
+
+body{
+    margin: 0;
+     background-color: #181a22;
+
+     overflow-x:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-nav{
+    background-color: #1E202B;
+}
+
+
+
+
+.logo-text span{
+    font-size: 12px;
+    color: #BFC1C8;
+}
+
+.nav-items .nav-item a{
+    font-size: 14px;
+    color: white;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.nav-items .nav-item:hover a {
+    border-style: solid;
+    border-radius: 20%;
+    -webkit-border-radius:42%;
+    -moz-border-radius: 42%;
+    -ms-border-radius: 42%;
+    -o-border-radius: 42%;
+    border-width: 3px ;
+    border-color: #009AD8;
+    transition: 1s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    color: #009AD8;
+    
+}
+
+
+
+/* ==========================*/
+
+
+
+
+.input-bg{
+    background-color: #1E202B;
+}
+.home-items label{
+    color: #BFC1C8;
+}
+
+.day1,
+.day2,
+.day3
+{
+
+    border-color:#1E202B ;
+}
+
+.d1-upper{
+    background-color: #262936;
+}
+
+.d1-bottom{
+    background-color: #323544;
+}
+.d2-upper{
+    background-color: #1E202B;
+}
+.d2-bottom{
+    background-color: #262936;
+}
+.d3-upper{
+    background-color: #262936;
+}
+.d3-bottom{
+    background-color: #323544;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================== */
+
+.widthy{
+    width: 75%;
+}
+
+.icons a i{
+    background-color: black;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.icons a:hover i{
+    background-color: #009AD8;
+    color: white;
+ 
+}

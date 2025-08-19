@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+
+
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- navbar -->
+ <div class="bg-nav nav d-flex justify-content-center w-100">
+
+ <nav class="abdo navbar navbar-expand-lg w-75 pt-4  pb-4">
+
+  <div class="container-fluid">
+
+
+    
+        <a class="navbar-brand text-white" href="#">
+
+ <div class="pb-4">
+       
+                   <img src="./images/logo.png" alt="">
+                   
+ </div>
+<div class="logo-text">
+    
+                weather <span class="d-block">tagline goes here</span></a>
+            
+</div>
+
+    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="nav-items collapse navbar-collapse d-flex justify-content-end " id="navbarNav">  
+      <ul class="navbar-nav d-flex gap-3">
+        <li class="nav-item">
+          <a class="nav-link  px-4 py-1" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  px-4 py-1" href="#">news</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  px-4 py-1" href="#">live cameras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  px-4 py-1" href="#">photos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  px-4 py-1" href="#">contact</a>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</div>
+    <!-- navbar -->
+
+
+
+
+
+    <!--================== -->
+<div class="second-sec ">
+    
+        <div class="bg-image d-flex justify-content-center position-relative">
+            <img src="./images/banner.png" alt="">
+    
+           
+<div class="container w-75 home-items position-absolute z-3 ">
+    
+<!-- <div>
+                
+            <form class="form-floating mt-5 ">
+      <input type="search" oninput="getWeather()"  class="form-control rounded-5  input-bg" id="floatingInputValue" placeholder="name@example.com">
+      <label for="floatingInputValue" class="">find your location..  </label>
+      
+    </form>
+    
+</div> -->
+
+
+<div class="input-group rounded-pill bg-dark shadow-lg mt-3">
+    <input type="text" class="form-control bg-dark text-white border-0 ps-4" id="floatingInputValue" placeholder="Find your location..." aria-label="Location">
+    <button class="btn btn-primary px-4 rounded-pill"  onclick="getWeather()">Find</button>
+</div>
+
+
+
+<div class="weather card-group container mt-5 rounded-3">
+  
+            
+            
+    
+</div>
+    
+        </div>
+    
+</div>
+<!--================== -->
+
+
+
+
+
+
+
+
+
+
+<div class="bg-dark text-white pt-4 pb-2 position-absolute top-100 w-100">
+  <div class="container text-center">
+   
+    <form class="row justify-content-center mb-3">
+      <div class="col-md-4 col-sm-6">
+        <input type="email" class="form-control" placeholder="Enter your email to subscribe...">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-info">Subscribe</button>
+      </div>
+    </form>
+
+    
+    <div class="mb-3 icons">
+      <a href="#"><i class="fab fa-facebook-f me-3 p-3  rounded-circle fs-6"></i></a>
+      <a href="#"><i class="fab fa-twitter me-3 p-3  rounded-circle fs-6"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g me-3 p-3  rounded-circle fs-6"></i></a>
+      <a href="#"><i class="fab fa-pinterest p-3  rounded-circle fs-6"></i></a>
+    </div>
+
+    <!-- Copyright -->
+    <small class=" d-block text-white">
+      Copyright 2014 Company name. Designed by Themezy. All rights reserved
+    </small>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
